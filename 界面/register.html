@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿洋网店注册界面</title>
+    <!-- 引入favicon.ico网页图标,固定写法但是必须要在根目录 -->
+    <link rel="shortcut icon" href="../hu.ico" type="image/x-icon" />
+    <!-- 引入基础css初始化文件 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- 引入公共样式的css文件 -->
+    <link rel="stylesheet" href="../css/common.css">
+    <!-- 引入register登陆界面的css文件 -->
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <div class="w">
+        <!-- header区域开始 -->
+        <div class="header">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- header区域结束 -->
+        <!-- registerarea注册区域开始 -->
+        <div class="registerarea w">
+            <h3>
+                注册新用户
+                <em>我有账号 去<a href="#">登陆</a>
+                </em>
+            </h3>
+            <div class="reg_form">
+                <form action="huliuyang.php">
+                    <ul>
+                        <li>
+                            <label for="tel1">手机号：</label>
+                            <input type="text" class="inp" id="tel1">
+                            <span class="error">
+                                <i></i>
+                                手机号格式不正确，请重新输入</span>
+                        </li>
+                        <li>
+                            <label for="tel2">短信验证码：</label>
+                            <input type="text" class="inp" id="tel2">
+                        </li>
+                        <li>
+                            <label for="tel3">登录密码：</label>
+                            <input type="text" value="huliuyang" class="inp" id="tel3">
+                            <span class="success">
+                                <i></i>
+                                恭喜生成正确</span>
+                        </li>
+                        <li class="safe">
+                            安全程度
+                            <em class="ruo">弱</em>
+                            <em class="zhong">中</em>
+                            <em class="qiang">强</em>
+                        </li>
+                        <li>
+                            <label for="tel4">确认密码：</label>
+                            <input type="text" value="huliuyang" class="inp" id="tel4">
+                            <span class="success">
+                                <i></i>
+                                恭喜生成正确</span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox">
+                            同意协议并注册
+                            <a href="#">《刘洋霸王条款看看吧》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册" class="over">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <!-- registerarea注册区域结束 -->
+        <!-- footer开始 -->
+        <div class="footer">
+            <p class="footer_right_links">
+                <a href="#">关于我们 |</a>
+                <a href="#">联系我们 |</a>
+                <a href="#">联系客服 |</a>
+                <a href="#">商家入驻 |</a>
+                <a href="#">营销中心 |</a>
+                <a href="#">手机品优购 |</a>
+                <a href="#">友情链接 |</a>
+                <a href="#">销售联盟 |</a>
+                <a href="#">品优购社区 |</a>
+                <a href="#">品优购公益 |</a>
+                <a href="#">English Site |</a>
+                <a href="#">Contact U |</a>
+            </p>
+            <p class="footer_right_info">
+                地址:北京市XX区XX路XX办公楼666层
+                邮编:
+                666666电话:400-666-8888传真: 010-88886666
+                邮箱: huliuyang.cn </br>
+                京xxx备xxxxxxxx号京公网安备xxxxxxxxxxx
+            </p>
+        </div>
+
+        <!-- footer结束 -->
+    </div>
+</body>
+
+</html>
